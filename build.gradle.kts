@@ -15,6 +15,7 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     implementation("org.apache.kafka:kafka-clients:2.4.0")
+    implementation("org.apache.kafka:kafka-streams:2.4.0")
     implementation("io.confluent:kafka-avro-serializer:5.3.0")
     implementation("io.github.config4k:config4k:0.4.2")
     implementation("org.apache.avro:avro:1.9.1")
